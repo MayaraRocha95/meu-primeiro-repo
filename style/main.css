@@ -1,0 +1,174 @@
+:root{
+  --vermelho:#c90812;
+  --preta:#141414;
+}
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+
+
+/*elementos base*/
+
+body {
+  background: var(--preta);
+  font-family: 'Arial', Times, serif;
+  color:white;
+}
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin-left: 5px;
+  color: var(--vermelho);
+  
+  font-size: 40px;
+  font-family: 'Aclonica', sans-serif;
+
+
+}
+
+header nav a{
+  text-decoration: none;
+  color:#AAA;
+  margin-right: 10px;
+}
+
+header nav a:hover{
+  color:#fff;
+}
+
+/*serie principal */
+.serie-principal{
+  font: size 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/meu-primeiro-repo/img/AHScapa.jpg');
+   height: 500px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+.serie-principal .descricao {
+  margin-top:10px;
+  margin-bottom:40px;
+}
+
+.titulo {
+  font-size: 40px;
+  font-family: 'Gupter', serif;
+
+
+}
+.botoes{
+  display: flex;
+
+}
+
+.botao {
+  background-color: rgba(0,0,0,.50);
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.botao:hover{
+  background-color: rgba(255, 255, 255, 0.727);
+  color: black;
+}
+
+.botao i{
+  margin-right: 10px;
+}
+
+.container{
+  margin-left: 20px;
+}
+
+.serie-principal .container{
+  width: 70%;
+}
+
+.box-filme{
+  height: 100%;
+  width: 100%;
+  
+  display: block;
+}
+
+.box-filme:hover{
+  border: 2px solid white;
+}
+
+.carrpsel-filmes{
+  margin-top: 5px;
+  background-size: 50px;
+}
+
+#carrosel-series{
+  margin-top: 5px;
+
+}
+
+.rodape {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 20px;
+  font-family: 'Gupter', serif;
+  font-size: 20px;
+}
+.tema{
+  font-family: 'Gupter', serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.tema spam {
+  font-family: 'Aclonica', serif;
+  font-size: 40px;
+  color: var(--vermelho);
+  margin-right: 7px;
+  
+}
+
+.botao img{
+  margin-right: 5px;
+}
+
+.titulo +img +img +img +img+img{
+  max-width: 20px;
+  font-size: 20px;
+}
+.star {
+  margin-left: 20px;
+
+}
+
+.clasificacao{
+  margin-left: 60px;
+
+
+}
